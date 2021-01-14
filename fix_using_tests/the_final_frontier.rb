@@ -12,6 +12,7 @@ def state_log(star_date)
 end
 
 def engage
+  date = 10
   puts state_log(date)
   date = generate_star_date
   puts "Captain's Log"
