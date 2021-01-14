@@ -14,6 +14,7 @@ end
 def engage
   puts state_log(date)
   date = generate_star_date
-  puts "Captain's Log, star_date"
+  puts "Captain's Log"
+  puts "Crew Greetings"
   binding.pry
 end
